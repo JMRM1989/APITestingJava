@@ -5,7 +5,9 @@ This Java project demonstrates basic API test automation using the Playwright li
 ### Configuration
 Provide a valid access token for `Authorization` in the test code.
 
+
 # GET
+[DEMO PLAN](GET.md)
 ## GETAPICall
 ### getUsersApiTest
 This test method makes a GET request to the base URL and asserts that the response status code is 200.
@@ -131,7 +133,7 @@ The test includes the following steps:
 Ensure the `User` class has the necessary attributes (name, email, gender, status, and id) and a constructor for creating instances.
 
 ## createUserCallWithPojoLombokTest
-
+[DEMO PLAN](POST.md)
 This test method creates a `Users` object using Lombok annotations, makes a POST request to the base URL to create a user, and then verifies the user's details using assertions against the converted POJO.
 
 The test includes the following steps:
@@ -161,6 +163,7 @@ public class Users {
 ```
 
 # PUT
+[DEMO PLAN](PUT.md)
 ## UpdateUserPUTCallWithPojoLombokTest
 This test method creates a Users object using Lombok annotations, makes a POST request to the base URL to create a user, updates the user's details with a PUT request, and then verifies the updated user's details using assertions.
 
@@ -189,6 +192,7 @@ The test includes the following steps:
 11. Verifies the details of the fetched user, including the user ID, status, and name.
 
 # DELETE
+[DEMO PLAN](DELETE.md)
 
 ## DeleteUserAPITest
 
